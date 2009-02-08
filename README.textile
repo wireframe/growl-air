@@ -9,16 +9,23 @@ new Notification("my growl message");
 
 h2. Installation
 
-* copy files into your app
-* add references to javascript dependencies
-* add references to growl-air javascript
-<html>
-<head>
-  <script src="prototype.js" type="text/javascript"></script>
-  <script src="effects.js" type="text/javascript"></script>
-  <script src="growl-air.js" type="text/javascript"></script>
-</head>
-</html>
+# copy files into your app
+# add references to javascript dependencies
+# add reference to growl-air javascript
+
+h2. Example
+
+
+&lt;html&gt;
+&lt;head&gt;
+  &lt;script src="prototype.js" type="text/javascript"&gt;&lt;/script&gt;
+  &lt;script src="effects.js" type="text/javascript"&gt;&lt;/script&gt;
+  &lt;script src="growl-air.js" type="text/javascript"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript"&gt;
+    new Notification("Application is starting up!");
+  &lt;/script&gt;
+&lt;/head&gt;
+&lt;/html&gt;
 
 h2. Customization
 
