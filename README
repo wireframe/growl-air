@@ -1,0 +1,16 @@
+Installation
+* copy files into your app
+* add references to javascript within your app
+<html>
+<head>
+  <script src="growl-air.js" type="text/javascript"></script>
+</head>
+</html>
+
+Usage:
+  new Notification("my growl message");
+
+
+Customization
+CSS
+HTML
