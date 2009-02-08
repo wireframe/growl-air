@@ -1,4 +1,14 @@
-Installation
+h1. GROWL-AIR (Growl like notification for Adobe AIR applications)
+
+Provides a Javascript API for creating cross platform, Growl like user notifications.
+see: http://growl.info
+
+h2. Usage
+
+new Notification("my growl message");
+
+h2. Installation
+
 * copy files into your app
 * add references to javascript dependencies
 * add references to growl-air javascript
@@ -10,10 +20,6 @@ Installation
 </head>
 </html>
 
-Usage:
-  new Notification("my growl message");
+h2. Customization
 
-
-Customization
-CSS
-HTML
+built using HTML and CSS, so customization is very simple.
