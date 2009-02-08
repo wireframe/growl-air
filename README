@@ -1,8 +1,11 @@
 Installation
 * copy files into your app
-* add references to javascript within your app
+* add references to javascript dependencies
+* add references to growl-air javascript
 <html>
 <head>
+  <script src="prototype.js" type="text/javascript"></script>
+  <script src="effects.js" type="text/javascript"></script>
   <script src="growl-air.js" type="text/javascript"></script>
 </head>
 </html>
